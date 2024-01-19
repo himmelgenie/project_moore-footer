@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Moore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/> 
+</head>
+
+<body>
+   
+
+    <footer>
+        <div class="footer-notice">
+            <div class="footer-inner">
+                <div class="row">
+                    <div class="notice pe-2 col-2 ">공지사항</div>
+                                            <!-- Swiper -->
+                    <div class=" swiper mySwiper col-10 ">
+                        <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide">Movie와 Store를 합친 Moore 브랜드 론칭! </a>
+                        <a href="#" class="swiper-slide">브랜드 컬러 #FF3838 선정</a>
+                        <a href="#" class="swiper-slide">금요일 11:30 끝나지 않는 회의 중으로 알려져..</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+                </script> 
+            </div>
+        </div>
+        <div class="footer-menu1">
+            <div >
+                    <a herf="#" class="style">회사소개</a>
+                    <a herf="#" class="style">인재채용</a>
+                    <a herf="#" class="style">서비스 소개</a>
+                    <a herf="#" class="style">이용약관</a>
+                    <a herf="#" class="style">개인정보 처리방침</a>
+                    <a herf="#" class="style">고객센터</a>
+            
+            </div>    
+        </div>
+        <div class="footer-menu2 container">
+            <div class="row row-cols-6">
+                    <a herf="#" class="style">회사소개</a>
+                    <a herf="#" class="style">인재채용</a>
+                    <a herf="#" class="style">서비스 소개</a>
+                    <a herf="#" class="style">이용약관</a>
+                    <a herf="#" class="style">개인정보 처리방침</a>
+                    <a herf="#" class="style">고객센터</a>
+            
+            </div>    
+        </div>
+        <div class="footer-info pt-1 pb-5">
+            <div class="info-name col-1">
+                제작자
+            </div>
+            <div class="info-list col-6">
+                <div><a href="#">Product Owner  김유진  </a></div>
+                <div><a href="#">Scrum master 조하영</a></div>
+                <div><a href="#">Developer  김범준</a></div>
+                <div><a href="#">Developer  최유진</a></div>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                사업자용 Moore 가입
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Moore-on 서비스 소개 </a></li>
+                    <li><a class="dropdown-item" href="#">Moore-on 도서관 서비스 </a></li>
+                    <li><a class="dropdown-item" href="#">Moore-on PC방 서비스</a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./moorlogo-2.png" width="150px">
+            </div>
+        </div>
+        <div class="third-line pt-3 pb-3">
+            Thanks to: 코딩 알려주는 누나 &#128521
+        </div>
+    </div>
+    </footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+
+</html>
